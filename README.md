@@ -35,18 +35,23 @@ A backend API built using **FastAPI** and deployed on Render.
 ## 📁 Project Structure
 
 ```
-app/
-│── main.py
-│── database.py
-│── models.py
-│── schemas.py
-│── routers/
-│     ├── authentication.py
-│     ├── blog.py
-│     ├── user.py
-
-requirements.txt
-README.md
+fastapi-learning/
+├── app/
+│ ├── main.py
+│ ├── database.py
+│ ├── models.py
+│ ├── schemas.py
+│ ├── routers/
+│ │ ├── authentication.py
+│ │ ├── blog.py
+│ │ └── user.py
+│ └── repositories/
+│ ├── blog.py
+│ └── user.py
+├── images/
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
 ---
