@@ -1,8 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException, status,Response
 from app.database import engine
 from app import models
-from app.dependencies import authentication
-from app.routers import blog, user
+from app.routers import blog, user,authentication
 authentication
 app=FastAPI()
 
