@@ -137,13 +137,13 @@ uvicorn app.main:app --host 0.0.0.0 --port 10000
 ## 📸 Screenshots
 
 ### 🔹 API Home
-![API Home](images/fapi1.PNG)
+![API Home](images/fapi1.png)
 
 ### 🔹 Swagger UI
-![Swagger UI](images/fapi2.PNG)
+![Swagger UI](images/fapi2.png)
 
 ### 🔹 API Response
-![API Response](images/fapi3.PNG)
+![API Response](images/fapi3.png)
 
 ## 🛠️ Tech Stack
 
