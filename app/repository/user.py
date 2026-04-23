@@ -1,0 +1,1 @@
+#similar to the repository/blog.py file, we will create a repository for user related database operations. This will help us to keep our code organized and maintainable.
