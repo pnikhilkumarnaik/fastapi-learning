@@ -10,3 +10,6 @@ app.include_router(blog.router)
 app.include_router(user.router)
 
 
+@app.get("/")
+def root():
+    return {"message": "FastAPI running 🚀"}
